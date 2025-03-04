@@ -1,0 +1,120 @@
+﻿/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navbar Styling */
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #000;
+    
+/*    padding: 10px 0;*/
+}
+
+    .navbar a {
+        color: white;
+        text-decoration: none;
+        text-align: center;
+        padding: 10px 15px;
+        background-color: black;
+        border-right: 2px solid #fff;
+        font-size: 28px;
+    }
+
+        .navbar a.active {
+            background-color: #f00; /* Active link has a red background */
+        }
+
+        .navbar a:hover:not(.active) {
+            background-color: grey; /* Change to grey on hover */
+        }
+
+        .navbar a:last-child {
+            border-right: none;
+        }
+
+/* Container Styling */
+.container {
+    padding: 2.5%;
+    background-color: peachpuff;
+}
+.box {
+    margin-bottom: 2%;
+    margin-top: 2%;
+    border: 3px solid darkgreen;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: mintcream;
+}
+
+h1 {
+/*    padding: 2.5%;*/
+    margin-bottom: 2.5%;
+    font-size: 60px;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+/* Content Section Styling */
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+    .content img {
+        width: 150px;
+        height: 150px;
+        object-fit: cover;
+        transition: transform 0s;
+    }
+
+    .content.left img {
+        margin-right: 20px;
+    }
+
+    .content.right img {
+        margin-left: 20px;
+    }
+
+    /* Flip images on hover */
+    .content img:hover {
+        transform: scaleX(-1); /* Flip the image */
+    }
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    text-align: center;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #f4f4f4;
+}
+
+/*Body for Margin*/
+
+.Margin {
+    background-color: mediumseagreen;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border: 3px solid #006400; /* Dark green border */
+    border-radius: 5px; /* Rounded corners */
+    
+}

@@ -145,9 +145,25 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\bootstrap.rtl.css" />
     <Content Include="Content\bootstrap.rtl.min.css" />
+    <Content Include="Content\StudyGroupStyling.css" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="HTML\Andreas.html" />
+    <Content Include="HTML\Arran.html" />
+    <Content Include="HTML\Images\ABHobby.jpeg" />
+    <Content Include="HTML\Images\ABPerson.jpeg" />
+    <Content Include="HTML\Images\AHobby.jpg" />
+    <Content Include="HTML\Images\APerson.jpg" />
+    <Content Include="HTML\Images\MHobby.jpeg" />
+    <Content Include="HTML\Images\MPerson.jpeg" />
+    <Content Include="HTML\Images\THobby.jpeg" />
+    <Content Include="HTML\Images\TPerson.jpeg" />
+    <Content Include="HTML\Images\VHobby.jpeg" />
+    <Content Include="HTML\Images\VPerson.jpeg" />
+    <Content Include="HTML\Michael.html" />
+    <Content Include="HTML\Tanyaradzwa.html" />
+    <Content Include="HTML\Vuyo.html" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
     <Content Include="Scripts\bootstrap.esm.js" />
@@ -179,7 +195,7 @@
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
-    <Content Include="Views\StudyGroup\Index.cshtml" />
+    <Content Include="Views\StudyGroup\ListOfPeopleIndex.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
